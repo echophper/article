@@ -9,7 +9,7 @@
 		
 	}catch(PDOException $e){
 		echo "connet faile:".$e->getMessage();
-		exit: //如果不加exit后面的代码会被执行也可以用die
+		exit; //如果不加exit后面的代码会被执行也可以用die
 	}
 	
 	//设置数据库编码
